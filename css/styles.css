@@ -1,0 +1,219 @@
+body {
+    min-height: 100vh !important;
+    position: relative;
+    color: rgb(44, 46, 44);
+    background-color: white;
+    font-family: 'arial';
+    padding-bottom: 200px;
+    background: url('https://siasky.net/AACQWJbzVqZ-KPPtXWzLemoEnKxxtvh7GMnGUdtPckMDxg');
+    background-size: cover;
+}
+
+.p {
+    text-align: justify;
+    text-justify: inter-palabra;
+    font-size: 5px;
+}
+
+
+/*Etiquetas que afectan a todos las columanas*/
+
+.row-principal {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-superior {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 3px 3px rgb(12, 34, 56);
+}
+
+.row-inferior {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(103, 173, 235);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px rgb(12, 34, 56);
+}
+
+
+/*Cards Menu Inferior*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.card {
+    border-radius: 8px
+}
+
+span.text-muted {
+    font-size: 12px
+}
+
+small.text-muted {
+    font-size: 8px
+}
+
+h5.mb-0 {
+    font-size: 1rem
+}
+
+small.ghj {
+    font-size: 9px
+}
+
+.mid {
+    background: #ECEDF1
+}
+
+h6.ml-1 {
+    font-size: 13px
+}
+
+small.key {
+    text-decoration: underline;
+    font-size: 9px;
+    cursor: pointer
+}
+
+small.justify-content-center {
+    font-size: 9px;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+@media screen and (max-width:600px) {
+    .col-sm-4 {
+        margin-bottom: 20px
+    }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+
+/* This pen */
+
+
+/*body {
+	font-family: "Baloo 2", normal;
+	font-size: 13px;
+	color: #000000;
+	text-rendering: optimizeLegibility;
+	font-weight: initial;
+  
+}
+*/
+
+
+/* footer */
+
+footer {
+    background-color: rgb(12, 34, 56, 0.9);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+footer h1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer ul {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+footer ul li {
+    line-height: 2;
+}
+
+
+/*Menu Superior*/
+
+.navbar {
+    background-color: rgb(12, 34, 56, 0.9);
+}
+
+.navbar a {
+    margin: 0;
+    color: #e4322d !important;
+    font-weight: 550 !important;
+}
+
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
+.dropdown-menu li a {
+    color: #0a7fb8 !important;
+    font-weight: 400;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: white !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+
+.collapse {
+    padding-left: 50px;
+}
+
+
+/*Ajustar menu superior en moviles*/
+
+@media screen and (max-width: 600px) {
+    .collapse {
+        padding-left: 0px;
+    }
+    body {
+        padding-bottom: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .collapse {
+        padding-left: 0px;
+    }
+    body {
+        padding-bottom: 400px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 990px) {
+    .collapse {
+        padding-left: 0px;
+    }
+    body {
+        padding-bottom: 360px;
+    }
+}
+
+
+/*Ajustar texto de menu inferior por pantallas*/
+
+@media screen and (max-width: 700px) {
+    footer ul {
+        font-size: 9px
+    }
+}
