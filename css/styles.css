@@ -1,18 +1,37 @@
+/* utility */
+html.sr .load-hidden {
+    visibility: hidden;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Poppins:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body {
     min-height: 100vh !important;
     position: relative;
     color: rgb(44, 46, 44);
-    background-color: white;
-    font-family: 'arial';
+    font-family: 'Roboto', 'normal';
     padding-bottom: 200px;
-    background: url('https://siasky.net/AACQWJbzVqZ-KPPtXWzLemoEnKxxtvh7GMnGUdtPckMDxg');
+    background-color: rgba(226, 223, 223, 0.85);
+    /*background: url('/img/background/bgMontañasBlancas.png');*/
     background-size: cover;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative;
+    z-index: 99;
+    font-size: 90%;
 }
 
 .p {
     text-align: justify;
     text-justify: inter-palabra;
     font-size: 5px;
+}
+
+
+/*Color toogle menu superior*/
+
+.logoSuperior {
+    height: 65px;
 }
 
 
@@ -27,97 +46,37 @@ body {
 }
 
 .row-superior {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: white;
+    margin: 8px;
+    padding: 4px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 5px 5px 3px 3px rgb(12, 34, 56);
+    background-color: rgba(172, 176, 182, 0.898);
+    min-height: 40vh;
 }
 
-.row-inferior {
-    margin-top: 20px;
-    padding: 5px;
-    background-color: rgb(103, 173, 235);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 5px 5px rgb(12, 34, 56);
+.row-inferiorv2 {
+    background-color: rgb(103, 173, 235, 0.5);
 }
 
 
 /*Cards Menu Inferior*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .card {
-    border-radius: 8px
-}
-
-span.text-muted {
-    font-size: 12px
-}
-
-small.text-muted {
-    font-size: 8px
-}
-
-h5.mb-0 {
-    font-size: 1rem
-}
-
-small.ghj {
-    font-size: 9px
-}
-
-.mid {
-    background: #ECEDF1
-}
-
-h6.ml-1 {
-    font-size: 13px
-}
-
-small.key {
-    text-decoration: underline;
-    font-size: 9px;
-    cursor: pointer
-}
-
-small.justify-content-center {
-    font-size: 9px;
-    cursor: pointer;
-    text-decoration: underline
+    border-radius: 8px;
+    background-color: transparent;
 }
 
 @media screen and (max-width:600px) {
     .col-sm-4 {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
-
-/* This pen */
-
-
-/*body {
-	font-family: "Baloo 2", normal;
-	font-size: 13px;
-	color: #000000;
-	text-rendering: optimizeLegibility;
-	font-weight: initial;
-  
-}
-*/
 
 
 /* footer */
 
 footer {
-    background-color: rgb(12, 34, 56, 0.9);
+    background-color: #1180bc;
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -144,18 +103,31 @@ footer ul li {
 /*Menu Superior*/
 
 .navbar {
-    background-color: rgb(12, 34, 56, 0.9);
+    background-color: #1180bce7;
 }
 
 .navbar a {
     margin: 0;
-    color: #e4322d !important;
-    font-weight: 550 !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500 !important;
 }
 
 .nav-item {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.nav-link:hover {
+    transition: 150ms;
+    border-bottom: 1px solid black !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: white !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px !important;
 }
 
 .dropdown-menu {
@@ -165,14 +137,6 @@ footer ul li {
 .dropdown-menu li a {
     color: #0a7fb8 !important;
     font-weight: 400;
-}
-
-.nav-link {
-    font-weight: 500;
-    color: white !important;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 12px !important;
 }
 
 .collapse {
@@ -217,3 +181,86 @@ footer ul li {
         font-size: 9px
     }
 }
+
+
+/*Iconos sociales*/
+
+.social {
+    position: fixed;
+    left: 0;
+    padding-left: 0;
+    top: 40%;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social ul li a {
+    font-size: 26px;
+    height: 30px;
+    background-color: rgb(12, 34, 56, 0.9);
+    border-radius: 0px 8px 8px 0px;
+    padding-right: 0;
+}
+
+.social ul li a:hover {
+    padding: 2px 8px;
+    background-color: rgb(107, 31, 31, 0.9);
+}
+
+.social ul li a i {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 37px;
+    font-size: 25px;
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    -webkit-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+
+/*Cartas de menu secundario*/
+
+.cards-index {
+    border: none;
+    background: #eef1f2;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 1000ms ease;
+}
+
+.cards-index {
+    border: 3px solid #1180bc;
+}
+
+.cards-index:hover {
+    border: 3px solid #e5322e;
+    background: #1180bc;
+}
+
+.img-empresa {
+    transition: all .5s ease-in-out;
+}
+
+.img-empresa:hover {
+    filter: sepia(60%);
+}
+
+
+/*Modelado del body en experiencia*/
+
+#carouselExampleControls .carousel-inner .card-img-top {
+    width: 70% !important;
+}
+
+
+/*Btn de contacto*/

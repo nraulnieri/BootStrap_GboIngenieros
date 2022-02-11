@@ -18,9 +18,12 @@
     <!-- Animacion al Hacer Scroll CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Animacion Aparicion de Secciones-->
-    <script src="js/scrollreveal.js"></script>
+    <!-- Animacion Aparicion de Secciones
+    <script src="js/scrollreveal.js"></script>-->
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+ 
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
 
     <title>GBO ingenieros Consultores SAC</title>
@@ -31,26 +34,23 @@
 
     <!--Inicio del Menu Superior-->
     <header>
-        <nav class="navbar nav nav-tabs navbar-expand-lg">
+        <nav class="navbar nav nav-tabs navbar-expand-lg ">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-                <a title="Logo gbo ingenieros" href="index.html"><img src="img/logo2.png" alt="Logo gbo ingenieros" height="40px" /></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            
+                <span class="navbar-toggler-icon"><i class="bi bi-list" style="color:black; font-size:30px"></i></span>
+                </button>
+                <a title="Logo gbo ingenieros" href="index.html"><img class="logoSuperior" src="img/logos/logoEncabezadoFondoBlanco.png" alt="Logo gbo ingenieros" /></a>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <li class="nav-item ">
-                                <a class="nav-link" href="index.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Inicio
-              </a>
+                                <a class="nav-link" href="index.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inicio</a>
 
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Nosotros
-              </a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                     <li><a class="dropdown-item" href="nosotros/nosotros-1.html">Quienes Somos</a></li>
                                     <li><a class="dropdown-item" href="nosotros/nosotros-2.html">Mision y Visión</a></li>
@@ -61,9 +61,7 @@
 
                         <li class="nav-item">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Servicios
-                </a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                                 <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
                                     <li><a class="dropdown-item" href="servicios/estudios.html">Estudios</a></li>
                                     <li><a class="dropdown-item" href="servicios/supervision.html">Supervision</a></li>
@@ -75,28 +73,23 @@
 
                         <li class="nav-item">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Laboratorios
-              </a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laboratorios</a>
                                 <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
                                     <li><a class="dropdown-item" href="laboratorios/laboratorio-1.html">Laboratorio Suelos</a></li>
                                     <li><a class="dropdown-item" href="laboratorios/laboratorio-2.html">Lab. canteras y fuentes de agua</a></li>
                                     <li><a class="dropdown-item" href="laboratorios/laboratorio-3.html">Laboratorio Concreto</a></li>
                                     <li><a class="dropdown-item" href="laboratorios/laboratorio-4.html">Laboratorio Asfalto</a></li>
-                                    <li><a class="dropdown-item" href="laboratorios/laboratorio-5.html">Ensayos en situ</a></li>
+
                                     <li><a class="dropdown-item" href="laboratorios/laboratorio-6.html">Laboratorio Geotécnico</a></li>
-                                    <li><a class="dropdown-item" href="laboratorios/laboratorio-7.html">Geología</a></li>
-                                    <li><a class="dropdown-item" href="laboratorios/laboratorio-8.html">Geofísica</a></li>
-                                    <li><a class="dropdown-item" href="laboratorios/laboratorio-9.html">Ensayos topográficos</a></li>
+
+                                    <li><a class="dropdown-item" href="laboratorios/laboratorio-9.html">Laboratorio topográficos</a></li>
                                 </ul>
                             </li>
                         </li>
 
                         <li class="nav-item">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Experiencia
-              </a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experiencia</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                     <li><a class="dropdown-item" href="experiencia/proyectos-1.html">Proyectos</a></li>
                                     <li><a class="dropdown-item" href="experiencia/proyectos-2.html">Servicios</a></li>
@@ -104,42 +97,54 @@
                                 </ul>
                             </li>
                         </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="contacto/contacto.html">Contacto</a>
+                        </li>
+
 
 
                     </ul>
 
+
                 </div>
-                <!--<div class="d-flex">
-          <img class="alpha" src="img/rrss/facebook.png" style="height: 30px; width: 30px;" alt="">
-          <img class="alpha" src="img/rrss/whatsapp.png" style="height: 30px; width: 30px;" alt="">
-          <img class="alpha" src="img/rrss/twitter.png" style="height: 30px; width: 30px;" alt="">
-          <img class="alpha" src="img/rrss/instagram.png" style="height: 30px; width: 30px;" alt="">
-        </div>-->
+
+
             </div>
+
         </nav>
+
+
+
     </header>
+
     <!--Fin del Menu Superior-->
 
 
+    <div>
+
+    </div>
 
 
     <main>
 
         <!-- Slider Imagenes-->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner load-hidden">
                 <div class="carousel-item active">
-                    <img src="img/slider/carousel1.png" class="d-block w-100" alt="...">
+                    <img src="img/slider/carousel5.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/slider/carousel2.png" class="d-block w-100" alt="...">
+                    <img src="img/slider/carousel6.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/slider/carousel3.png" class="d-block w-100" alt="...">
+                    <img src="img/slider/carousel7.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/slider/carousel4.png" class="d-block w-100" alt="...">
+                    <img src="img/slider/carousel8.png" class="d-block w-100" alt="...">
                 </div>
+                <!--<div class="carousel-item">
+                    <img src="img/slider/carousel9.png" class="d-block w-100" style="height: 70vh; width: 100vh;" alt="...">
+                </div>-->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -156,14 +161,15 @@
 
         <!--Servicios Cards-->
         <div class="container">
+            <h1 class="text-center pt-3 "><span>SERVICIOS</span></h1>
             <div class="row row-principal">
 
                 <div class="col-10 col-sm-6 col-md-3">
                     <a href="laboratorios/laboratorio-1.html">
                         <div class="card pt-1 pb-1 ">
-                            <div class="card-body">
-                                <img class="h-100vh w-100 mx-auto" src="img/slider/slider4.png" alt="Card image cap">
-                                <button type="button" class="w-100 btn btn-primary rounded-0 bg-transparent text-black fw-bold"><small>Laboratorios</small></button>
+                            <div class="card-body cards-index">
+                                <img class="h-100vh w-100 mx-auto" src="img/slider/cardPrincipal1.png" alt="Card image cap">
+                                <button type="button" class="w-100 btn btn-primary rounded-0 bg-transparent text-black fw-bold">Laboratorios</button>
                             </div>
 
                         </div>
@@ -172,9 +178,9 @@
                 <div class="col-10 col-sm-6 col-md-3">
                     <a href="servicios/estudios.html">
                         <div class="card pt-1 pb-1 ">
-                            <div class="card-body">
-                                <img class="h-100vh w-100 mx-auto" src="img/slider/slider1.png" alt="Card image cap">
-                                <button type="button" class="w-100 btn btn-primary rounded-0 bg-transparent text-black fw-bold"><small>Estudios</small></button>
+                            <div class="card-body cards-index">
+                                <img class=" h-100vh w-100 mx-auto" src="img/slider/cardPrincipal2.png" alt="Card image cap">
+                                <button type="button" class="w-100 btn btn-primary rounded-0 bg-transparent text-black fw-bold">Estudios</button>
                             </div>
 
                         </div>
@@ -183,9 +189,9 @@
                 <div class="col-10 col-sm-6 col-md-3">
                     <a href="servicios/supervision.html">
                         <div class="card pt-1 pb-1">
-                            <div class="card-body">
-                                <img class="h-100vh w-100 mx-auto" src="img/slider/slider3.png" alt="Card image cap">
-                                <button type="button" class="w-100 btn btn-primary rounded-0 bg-transparent text-black fw-bold"><small>Supervisión</small></button>
+                            <div class="card-body cards-index">
+                                <img class="h-100vh w-100 mx-auto" src="img/slider/cardPrincipal3.png" alt="Card image cap">
+                                <button type="button" class="w-100 btn btn-primary rounded-0 bg-transparent text-black fw-bold">Supervisión</button>
                             </div>
                         </div>
                     </a>
@@ -193,8 +199,8 @@
                 <div class="col-10 col-sm-6 col-md-3">
                     <a href="servicios/g-pavimentos.html">
                         <div class="card pt-1 pb-1 ">
-                            <div class="card-body">
-                                <img class="h-100vh w-100 mx-auto" src="img/slider/slider2.png" alt="Card image cap">
+                            <div class="card-body cards-index">
+                                <img class="h-100vh w-100 mx-auto" src="img/slider/cardPrincipal4.png" alt="Card image cap">
                                 <button type="button" class="w-100 btn btn-primary rounded-0 bg-transparent text-black fw-bold"><small>Gestion de Pavimentos</small></button>
                             </div>
 
@@ -208,100 +214,29 @@
 
 
         <!--Imagen de los Isos-->
-        <div class="container">
-            <div class="row row-inferior">
 
-                <img style="width: 12rem;" src="img/iso1.png" class="card-img-top" style="height: 6rem;" alt="...">
-                <img style="width: 12rem;" src="img/iso2.png" class="card-img-top" style="height: 6rem;" alt="...">
-                <img style="width: 12rem;" src="img/iso3.png" class="card-img-top" style="height: 6rem;" alt="...">
-                <img style="width: 12rem;" src="img/iso4.png" class="card-img-top" style="height: 6rem;" alt="...">
-                <img style="width: 12rem;" src="img/iso5.png" class="card-img-top" style="height: 6rem;" alt="...">
+        <div class="container p-2 mt-5">
+            <div class="row row-inferiorv2 justify-content-center text-center g-2 pb-4">
+                <h1 class="text-center pt-3 ">NUESTRAS CERTIFICACIONES</h1>
+                <div class="col-4 col-sm-2 h-100">
+                    <img src="img/isos/iso11.png" class="card-img-top " alt="...">
+                </div>
+                <div class="col-4 col-sm-2 h-100">
+                    <img src="img/isos/iso22.png" class="card-img-top " alt="...">
+                </div>
+                <div class="col-4 col-sm-2 h-100">
+                    <img src="img/isos/iso33.png" class="card-img-top " alt="...">
+                </div>
+                <div class="col-4 col-sm-2 h-100">
+                    <img src="img/isos/iso44.png" class="card-img-top " alt="...">
+                </div>
+                <div class="col-4 col-sm-2 h-100">
+                    <img src="img/isos/iso55.png" class="card-img-top " alt="...">
+                </div>
 
             </div>
         </div>
         <!--Fin imagen de iso-->
-
-
-        <!--
-      <div class="container" style="background-color:#F9FAFD">
-        <div class="row">
-          <div class="col-8 col-md-4 col-lg-3 p-2">
-            <div class="card">
-
-              <div class="card-body">
-                <img style="width: 10rem;" src="img/iso1.png" class="mx-auto" style="height: 4rem;" alt="...">
-                <h6 class="card-title " style="font-weight: bold;font-size: smaller;">9001:2015</h6>
-                <h6 class="card-subtitle" style="font-weight: bold; font-size: smaller;">GBO INGENIEROS SAC</h6>
-                <p class="card-text" style="font-size: smaller; text-align:justify;text-justify:inter-word;">Pioneros en calidad de trabajo en la industria de la construcción que se centra en la ingeniería civil.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-3 p-2">
-            <div class="card">
-
-              <div class="card-body">
-                <img style="width: 10rem;" src="img/iso2.png" class="mx-auto" style="height: 4rem;" alt="...">
-                <h6 class="card-title " style="font-weight: bold;font-size: smaller;">ISO 14001:2015</h6>
-                <h6 class="card-subtitle" style="font-weight: bold; font-size: smaller;">GBO INGENIEROS SAC</h6>
-                <p class="card-text" style="font-size: smaller; text-align:justify;text-justify:inter-word;">Nos esforzamos en minimizar, controlar y prevenir los riesgos ambientales.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 col-lg-3 p-2">
-            <div class="card">
-              <img  src="img/iso3.png" class="w-75" alt="...">
-              <h6 class="card-title " style="font-weight: bold;font-size: smaller;">ISO 37001:2016</h6>
-              <h6 class="card-subtitle" style="font-weight: bold; font-size: smaller;">GBO INGENIEROS SAC</h6>
-              <p class="card-text" style="font-size: smaller; text-align:justify;text-justify:inter-word;">Demuestra su compromiso para prevenir el soborno y la corrupción con una auditoría.</p>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-
-
-      <div class="container d-flex justify-content-center" style="background-color:#F9FAFD">
-        <div class="row">
-
-          <div class="col">
-            <div class="card">
-              <img style="width: 10rem;" src="img/iso4.png" class="mx-auto" style="height: 4rem;" alt="...">
-              <div class="card-body">
-
-                <h6 class="card-title" style="font-size: smaller; font-weight: bold;">ISO 37001:2016</h6>
-                <h6 class="card-subtitle" style="font-size: smaller; font-weight: bold;">GBO INGENIEROS SAC</h6>
-                <p class="card-text" style="font-size: smaller; text-align:justify;text-justify:inter-word;">Dedicada a la implementación de Sistemas de Gestión de la Seguridad y Salud en el Trabajo.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img style="width: 10rem;" src="img/iso5.png" class="mx-auto" style="height: 4rem;" alt="...">
-              <div class="card-body">
-
-                <h6 class="card-title " style="font-weight: bold;font-size: smaller;">ISO 45001:2018</h6>
-                <h6 class="card-subtitle" style="font-weight: bold; font-size: smaller;">GBO INGENIEROS SAC</h6>
-                <p class="card-text" style="font-size: smaller; text-align:justify;text-justify:inter-word;">Dedicada a la implementación de Sistemas de Gestión de la Seguridad y Salud en el Trabajo.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img style="width: 10rem;" src="img/iso5.png" class="mx-auto" style="height: 4rem;" alt="...">
-              <div class="card-body">
-                <h6 class="card-title " style="font-weight: bold;font-size: smaller;">ISO 50001:2018</h6>
-                <h6 class="card-subtitle" style="font-weight: bold; font-size: smaller;">GBO INGENIEROS SAC</h6>
-                <p class="card-text" style="font-size: smaller; text-align:justify;text-justify:inter-word;">Mantiene y mejora un sistema de gestión de energía en una organización.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
 
 
 
@@ -310,7 +245,6 @@
     <!-- Inicio del Footer-->
     <footer>
         <div class="container">
-
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <h1><i class="bi bi-geo-alt"></i> DIRECCION :</h1>
@@ -318,7 +252,7 @@
 
                         <li>Los Angeles de Oquendo Mza. G. Lote. 16 - Prov. Const. Del Callao</li>
                         <li>Jr. Salaverry Nro. 648 - Magdalena del Mar - Lima</li>
-                        <li>Daniel Alcides Carrión Nro. 1337 - Huancayo</li>
+                        <li>Jr. Daniel Alcides Carrión Nro. 1337 - Huancayo</li>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3">
@@ -331,8 +265,6 @@
                         <li>supervision@gboingenieros.com</li>
 
                     </ul>
-
-
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <h1> <i class="bi bi-telephone"></i> CONTACTO :</h1>
@@ -341,14 +273,27 @@
                         <li>+51 964765184</li>
                         <li>+51 964765184</li>
                     </ul>
-
                 </div>
             </div>
         </div>
     </footer>
     <!-- Fin del Footer-->
 
-
+    <!-- Inicio Iconos Sociales barra lateral-->
+    <div class="social container-fluid">
+        <ul>
+            <li>
+                <a href="http://wa.link/2vwz64" target="_blank"> <i class="bi bi-whatsapp"></i> </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/gboingenieros/" target="_blank"> <i class="bi bi-instagram"></i> </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/gboingenieros" target="_blank"> <i class="bi bi-linkedin"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!-- Fin Iconos Sociales barra lateral-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
@@ -361,17 +306,12 @@
 
     <!-- Animacion al Hacer Scroll -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        //AOS.init();// inicialización básica
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 1600,
-
-        });
-    </script>
 
     <!-- Animacion Aparicion de Secciones-->
     <script src="js/index.js"></script>
+    
+
+
 </body>
 
 </html>
