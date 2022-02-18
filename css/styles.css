@@ -24,8 +24,8 @@ body {
     /*font-family: 'Roboto', 'normal';*/
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 200px;
-    /*background-color: rgba(226, 223, 223, 0.85);*/
-    background: url('/img/background/bgMontañasBlancas.png');
+    background-color: rgba(226, 223, 223, 0.85);
+    /*background: url('/img/background/bgMontañasBlancas.webp');*/
     background-size: cover;
     max-width: 100% !important;
     overflow-x: hidden !important;
