@@ -3,28 +3,54 @@ html.sr .load-hidden {
     visibility: hidden;
   }
 
+html.sr .row-principal {
+    visibility: hidden;
+  }
+
+html.sr .row-superior {
+    visibility: hidden;
+  }
+
+html.sr .row-inferiorv2 {
+    visibility: hidden;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Poppins:wght@300;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body {
     min-height: 100vh !important;
     position: relative;
     color: rgb(44, 46, 44);
-    font-family: 'Roboto', 'normal';
+    /*font-family: 'Roboto', 'normal';*/
+    font-family: 'Open Sans', sans-serif;
     padding-bottom: 200px;
     background-color: rgba(226, 223, 223, 0.85);
-    /*background: url('/img/background/bgMontañasBlancas.png');*/
+    /*background: url('/img/background/bgMontañasBlancas.webp');*/
     background-size: cover;
     max-width: 100% !important;
     overflow-x: hidden !important;
     position: relative;
     z-index: 99;
-    font-size: 90%;
-}
+    font-size: 95%;
+    text-align: justify; letter-spacing: normal;
 
-.p {
+}
+h1 {
+    color: #1180bc;
+    font-weight: 450;
+}
+h2{
+    color: #1180bc;
+    text-decoration: underline #1180bc 4px;
+}
+strong{
+    font-size: 18px;
+
+}
+p {
     text-align: justify;
     text-justify: inter-palabra;
-    font-size: 5px;
+    font-size: 15px;
 }
 
 
@@ -38,7 +64,8 @@ body {
 /*Etiquetas que afectan a todos las columanas*/
 
 .row-principal {
-    margin-top: 20px;
+    margin: 0 10px 0 10px;
+    padding: 4px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -46,22 +73,30 @@ body {
 }
 
 .row-superior {
-    margin: 8px;
-    padding: 4px;
+    margin: 20px;
+    border-radius: 4px;
+            
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(172, 176, 182, 0.898);
+    background-color: rgba(220, 223, 228, 0.898);
     min-height: 40vh;
 }
 
+.laboratorio_detalles{
+    border-radius: 0px !important;
+}
+
 .row-inferiorv2 {
-    background-color: rgb(103, 173, 235, 0.5);
+    margin: 0 20px 0 20px;
+    background-color: rgba(103, 173, 235, 0.582);
+    padding-bottom: 16px;
 }
 
 
 /*Cards Menu Inferior*/
 
 .card {
+    border: none;
     border-radius: 8px;
     background-color: transparent;
 }
@@ -85,14 +120,16 @@ footer {
 }
 
 footer h1 {
-    font-size: 14px;
-    font-weight: 600;
+    color: white;    
+    font-size: 15px;
+    font-weight: 500;
 }
 
 footer ul {
     list-style-type: none;
-    font-size: 12px;
-    font-weight: 550;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 footer ul li {
@@ -191,6 +228,7 @@ footer ul li {
     padding-left: 0;
     top: 40%;
     z-index: 2000;
+    max-width: 50px;
 }
 
 .social ul {
@@ -199,25 +237,24 @@ footer ul li {
 }
 
 .social ul li a {
-    font-size: 26px;
+    font-size: 32px;
     height: 30px;
-    background-color: rgb(12, 34, 56, 0.9);
-    border-radius: 0px 8px 8px 0px;
+    background-color: #118dc6;
+    border-radius: 0px 4px 4px 0px;
     padding-right: 0;
 }
 
 .social ul li a:hover {
     padding: 2px 8px;
-    background-color: rgb(107, 31, 31, 0.9);
+    background-color: #e5322e;
 }
 
 .social ul li a i {
     text-align: center;
     display: inline-block;
-    margin-bottom: 5px;
-    width: 37px;
-    font-size: 25px;
-    color: rgb(250, 250, 250);
+    width: 38px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     -webkit-transition: all 500ms;
     -o-transition: all 500ms;
